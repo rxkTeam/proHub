@@ -26,4 +26,9 @@ public class User {
     public void setAddr(String addr) {
         this.addr = addr;
     }
+    public User(String name,String pwd){
+        this.name=name;
+        this.pwd=pwd;
+        System.out.println("this is constructor");
+    }
 }
