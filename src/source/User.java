@@ -1,5 +1,5 @@
 package source;
 
 public class User {
-    String name,pwd;
+    String name,pwd,addr;
 }
